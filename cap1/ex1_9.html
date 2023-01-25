@@ -1,0 +1,26 @@
+<!--
+Elaborar um programa que leia o valor de um jantar. Calcule e informe o valor da taxa do garçom (10%) e o valor total a ser pago.
+  Vamos avançar um pouco. Neste e nos demais exercícios, vamos apresentar um exemplo de possíveis dados de entrada e dos respectivos dados de saída exibidos pelo programa (e deixar para você enumerar as
+  etapas).
+    Valor do Jantar R$: 80.00
+    Taxa do Garçom R$: 8.00
+    Total a Pagar R$: 88.00
+O exemplo de dados do programa serve apenas para ilustrar e reforçar o que é solicitado na descrição do exercício. Tenha cuidado de digitar valores com decimais separados por ponto, e não vírgula. Outro detalhe refere-se à compreensão do enunciado do exercício e ao uso correto de variáveis. Utilizando variáveis, o programa vai receber o valor do jantar, calcular corretamente a taxa do garçom e o valor total a ser pago. O Exemplo 1.9 apresenta uma maneira de resolver esse problema. Observe que o método toFixed(2) é adicionado às variáveis de saída. Ele serve para indicar que o valor a ser apresentado deve conter 2 casas decimais.
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var valor = Number(prompt("Digite o valor do jantar."));
+    var taxa = valor * 0.1;
+    var valorTotal = valor + taxa;
+    alert("Taxa Garçom R$: " + taxa.toFixed(2) + "\nTotal R$: " + valorTotal.toFixed(2));  
+  </script>
+</body>
+</html>

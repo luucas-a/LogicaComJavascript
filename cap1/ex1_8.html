@@ -1,0 +1,25 @@
+<!--
+  Elaborar um programa que leia dois números. Calcule e informe a soma desses números.
+    • Entrada de dados: ler dois números
+    • Processamento: calcular a soma
+    • Saída: informar a soma
+  Para realizar a leitura dos dois números, vamos declarar as variáveis num1 e num2. Lembre-se de que os nomes de variável não devem conter espaços e não podem começar por número. O exemplo implementa uma forma de resolução para esse programa. Observe que o método prompt() é utilizado duas vezes e, como deve ser realizada uma soma, é necessário converter a entrada em número.
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // Transformar texto em numero, e solicitar a entrada de números num1 e num2
+    var num1 = Number(prompt("Digite o primeiro número"));
+    var num2 = Number(prompt("Digite o segundo número"));
+    var calc = num1 + num2; // calculo dos números
+    alert("O a soma de ambos números é: " + calc); //mostrar na tela o resultado.
+  </script>
+</body>
+</html>

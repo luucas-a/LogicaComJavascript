@@ -1,0 +1,24 @@
+<!--
+  Elaborar um programa que leia a duração de uma viagem em dias e horas. Calcule e informe a duração total da viagem em número de horas.
+  Exemplo de dados de entrada e saída do programa (para uma viagem que dura 2 dias + 5 horas).
+  N° Dias: 2
+  N° Horas: 5
+  Total de Horas: 53
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var dias = Number(prompt("Insira o numero de dias: "));
+    var horas = Number(prompt("Insira o numero de horas: "));
+    var diasHoras = ((dias * 24) + horas);
+    alert("Total de Horas de Viagem é: " + diasHoras);
+  </script>
+</body>
+</html>
