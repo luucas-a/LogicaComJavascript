@@ -1,0 +1,55 @@
+<!--
+  Elaborar um programa para uma Vídeo Locadora, que leia o título e a
+duração de um  filme em minutos. Exiba o título do  filme e converta a
+duração para horas e minutos
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="ex2_2.css">
+
+  <title>Video Locadora</title>
+</head>
+
+<body>
+  <header>
+    <h1>
+      Conversão de minutos para horas.
+    </h1>
+  </header>
+  <main>
+    <section>
+      <p>
+        Insira o nome do filme: 
+        <input type="text" id="inTitulo" placeholder="Título do Filme" >
+      </p>
+      <p>
+        Insira a Duração do filme: 
+        <input type="text" id="inDuracao" placeholder="Duração (min)" >
+      </p>
+      <p>
+        <input type="button" value="Converter em Horas e Minutos" id="btConverter">
+      </p>
+    </section>
+    <p id="outTitulo"></p>
+    <p id="outResposta"></p>
+    <script src="/ex2_2.js"></script>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+body, h1{
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+}
+strong {
+  color: #00bfa6;
+}
+input{
+  width:160px;
+}

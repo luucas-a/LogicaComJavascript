@@ -1,0 +1,50 @@
+<!--
+Elaborar um programa para uma revenda de veículos. O programa deve
+ler modelo e preço do veículo. Apresentar como resposta o valor da entrada (50%) e o saldo em 12x
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concessionaria</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="ex2_3.css">
+</head>
+<body>
+  <header>
+    <h1>
+      Concessionaria de Veículos <strong class="color"> Novos</strong> e <strong class="color">seminovos</strong>
+    </h1>
+  </header>
+  <main>
+    <section>
+    <p>
+      Modelo:
+      <input type="text" id="inModelo" placeholder="Insira o modelo do veiculo">
+    </p>
+    <p>
+      Valor: 
+      <input type="text" id="inValor" placeholder="Insira o Valor do veiculo">
+    </p>
+    <p>
+      <input type="button" id="btConvert" value="Calcular entrada">
+    </p>
+    </section>
+    <section>
+      <p id="outModelo"></p>
+      <p id="outEntrada"></p>
+      <p id="outParcela"></p>
+    </section>
+  </main>
+  <footer>
+  </footer>
+  <script src="./ex2_3.js"></script>
+</body>
+</html>
