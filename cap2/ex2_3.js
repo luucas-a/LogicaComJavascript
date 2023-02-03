@@ -16,13 +16,12 @@ function conversion() {
   // Calculo valor de entrada
   var entrada = (valor * 0.5);
   // Calcular o restante dividido em 12x
-  var resto = (valor / 12);
+  var resto = (entrada / 12);
 
   // altera o conteúdo dos parágrafos de resposta
-  outModelo.textContent = "Modelo do carro: " + modelo;
+  outModelo.textContent = "Promoção: " + modelo
   outEntrada.textContent ="A entrada será de: " + entrada + "$ mil reais";
-  outParcela.textContent =
-    "Com 12 parcelas de: " + resto.toFixed(2) + "$ mil reais";
+  outParcela.textContent = "Com 12 parcelas de: " + resto.toFixed(2) + "$ mil reais";
 } 
   // cria uma referência ao elemento btConverter(botão)
   var btConvert = document.getElementById("btConvert");
