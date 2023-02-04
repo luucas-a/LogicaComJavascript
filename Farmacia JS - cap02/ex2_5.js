@@ -13,7 +13,7 @@ function conversion() {
 
   //obter o conteudo/valor html
   var medicamento = inMedicamento.value;
-  var valor = Number(inPreco.value.replace(",", "."))
+  var valor = Number(inPreco.value.replace(",", "."));
 
   // calculo de desconto
   var desconto = Math.floor(valor.toFixed(2));
